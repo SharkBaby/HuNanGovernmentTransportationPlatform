@@ -1,0 +1,50 @@
+.orgOnlineComponent>.level-title-font {
+
+  font-size: 1.1em;
+  color: #FBFCFC;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.regulation-content-online ul {
+  padding: 0;
+  margin: 0px;
+}
+
+.regulation-content-online-id {
+  color: #fff;
+  width: 65px;
+  display: inline-block;
+  margin-left: 6%;
+}
+
+.regulation-content-online-score {
+  color: #fff;
+}
+
+.regulation-content-online {
+  height: calc(100% - 52px);
+  overflow-y: auto;
+}
+
+.regulation-content-online ul li {
+  list-style: none;
+  height: 3.5vh;
+}
+
+.level-Supervise-deal-div {
+  height: 8px;
+  width: 55%;
+  display: inline-block;
+  border-radius: 5px;
+  background: #1E2E3E;
+}
+
+.regulation-inner {
+  height: 100%;
+  width: 0%;
+  display: block;
+  border-radius: 5px;
+  background: #8EFEFF;
+}
+

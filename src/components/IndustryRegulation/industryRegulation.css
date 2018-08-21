@@ -1,0 +1,40 @@
+div.industry-regulation-part{
+  /* padding: 16px; */
+  transition: all .4s;
+}
+div.industry-regulation-part:hover{
+  background: rgb(74,104,134);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  zoom: 1.01;
+}
+p.industry-regulation-head {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+div.regulation-detail-part{
+  margin-left: 20px;
+}
+span.platform-total-number {
+  display: block;
+  font-size: 40px;
+  color: #4D5F74;
+}
+
+.platform-total label {
+  font-size: 12px;
+  color: #CDD0D5
+}
+/* 历史累计上线数 */
+.regulation-detail-div{
+  min-height: 92px;
+}
+.regulation-detail-div label{
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+

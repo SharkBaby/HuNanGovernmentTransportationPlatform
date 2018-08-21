@@ -1,0 +1,71 @@
+.companyIndexOverspeed {
+  margin-left: 1%;
+}
+.companyIndexOverspeed .companyindex-header {
+
+  padding: 0px;
+  line-height: 30px;
+  margin: 0px;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 10px;
+  background: #2F445F;
+  color: #fff;
+}
+
+.companyIndexOverspeed .companyindex-header a {
+
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/icons.png') no-repeat;
+  float: right;
+}
+
+.companyIndexOverspeed .companyindex-header a:nth-child(1) {
+
+  background-position: -375px -404px;
+}
+
+.companyIndexOverspeed .companyindex-header a:nth-child(2) {
+
+  background-position: -285px -404px;
+}
+
+.companyIndexOverspeed .companyindex-header-down {
+
+  background-position: -240px -404px !important;
+}
+
+/* dashboard */
+
+.companyindex-overspeed-content {
+  height: 270px;
+  /* background: #27394F; */
+}
+
+.companyindex-overspeed-item {
+  width: 10%;
+  height: 100%;
+  position: relative;
+  margin-left: 2%;
+  float: left;
+}
+
+.companyindex-overspeed-item-outer {
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  width: 80%;
+  height: 90%;
+  background: #3F4C5C;
+}
+
+.companyindex-overspeed-item-inner {
+  background: #FA8B3A;
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  left: 10%;
+  bottom: 0px;
+}
+

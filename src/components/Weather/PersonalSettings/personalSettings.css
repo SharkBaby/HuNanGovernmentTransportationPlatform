@@ -1,0 +1,22 @@
+.personal-settings-menu {
+  display: inline-block;
+}
+
+.el-menu--horizontal>.el-submenu .el-submenu__title,
+.el-menu--horizontal>.el-menu-item {
+  height: 40px;
+  line-height: 40px;
+}
+
+.el-menu--horizontal {
+  border-bottom: none;
+}
+
+a.actionurl-name {
+  color: #fff;
+  text-decoration: none;
+}
+
+.router-link {
+  text-decoration: none;
+}

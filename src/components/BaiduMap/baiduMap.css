@@ -1,0 +1,255 @@
+/* Baidu Map */
+div.baiduMap {
+  height: 100%;
+}
+
+div.monitor-container {
+  height: 100%;
+}
+
+/* monitor-top-left */
+
+div.monitor-top-left {
+  position: absolute;
+  top: 5px;
+}
+
+.monitor-topleft-basic-icon {
+  width: 55px;
+  height: 55px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+/* --历史轨迹--- */
+
+.icon-open {
+  background: url('../../assets/Views/Monitor/history_icon1.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.icon-close {
+  background: url('../../assets/Views/Monitor/history_disabled.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* --跟踪--- */
+
+.monitor-track-open {
+  background: url('../../assets/Views/Monitor/tail_icon1.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.monitor-track-close {
+  background: url('../../assets/Views/Monitor/note_disabled.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* --短信--- */
+
+.monitor-send-message-open {
+  background: url('../../assets/Views/Monitor/note_icon1.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.monitor-send-message-close {
+  background: url('../../assets/Views/Monitor/note_disabled.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* --监听--- */
+
+.monitor-voice-open {
+  background: url('../../assets/Views/Monitor/jianTing1.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.monitor-voice-close {
+  background: url('../../assets/Views/Monitor/jianting2.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* --拍照--- */
+
+.monitor-photos-open {
+  background: url('../../assets/Views/Monitor/photo_icon1.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.monitor-photos-close {
+  background: url('../../assets/Views/Monitor/photo_disabled.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* --视频--- */
+
+.monitor-video-open {
+  background: url('../../assets/Views/Monitor/video_icon1.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.monitor-video-close {
+  background: url('../../assets/Views/Monitor/video_disabled.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* --行驶记录仪--- */
+
+.monitor-recorder-open {
+  background: url('../../assets/Views/Monitor/recorder_disabled.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.monitor-recorder-close {
+  background: url('../../assets/Views/Monitor/recorder_disabled_new.png') no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+/* monitor-bottom-right */
+
+div.monitor-bottom-right {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.vehicle-map-controls-icons-button {
+  float: left;
+  margin-left: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #9591B4;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.monitor-bottomright-basic-icon {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background: url('../../assets/Views/Monitor/allIcons.png') no-repeat;
+}
+
+/* --全图--- */
+
+.map-a {
+  background-position: 9px 14px;
+}
+
+.roam-a {
+  background-position: -73px 14px;
+}
+
+.ranging-a {
+  background-position: -153px 14px;
+}
+
+.enclosure-a {
+  background-position: -234px 14px;
+}
+
+.route-a {
+  background-position: -315px 14px;
+}
+
+.geography-a {
+  background-position: -399px 14px;
+}
+
+.line-a {
+  background-position: -477px 14px;
+}
+
+.zone-a {
+  background-position: -559px 14px;
+}
+
+.enlarge-a {
+  background-position: -642px 14px;
+}
+
+.narrow-a {
+  background-position: -723px 14px;
+}
+
+.sign-a {
+  background-position: -802px 9px;
+}
+
+/* Add Icon in bottom right */
+
+.vehicle-map-control {
+  width: 54px;
+  height: 54px;
+  display: inline-block;
+  border-radius: 27px;
+  background-color: #0170E6;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.mapControl-icon {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  background: url('../../assets/Views/Monitor/monitorIcon.png') no-repeat;
+  background-position: 0 -377px;
+}
+
+/* right bottom */
+
+div.monitor-right-bottom {
+  position: absolute;
+  bottom: 200px;
+  right: 30px;
+}
+
+.vehicle-map-control-right-bottom {
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  margin-top: 10px;
+  background-color: #0170E6;
+  text-align: center;
+}
+
+.monitor-rightbottom-basic-icon {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  margin-top: 3.5px;
+  background: url('../../assets/Views/Monitor/monitorIcon.png') no-repeat;
+}
+
+/* 跨入跨出车辆 */
+
+.vehicle-crossZone-icon {
+  background-position: 0px -90px;
+}
+
+/* 区域报警车辆 */
+
+.vehicle-areaalarm-icon {
+  background-position: -3px -460px;
+}
+
+/* 显示九黄线 */
+
+.show9HLines-icon {
+  background-position: 0px 5px;
+}
+

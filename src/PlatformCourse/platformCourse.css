@@ -1,0 +1,303 @@
+.platform-course-containner {
+  width: 100%;
+  height: 88%;
+  min-height: 570px;
+  /*background-image:  -webkit-gradient(linear, left top, left bottom, color-stop(0, #0477c7),color-stop(0.5,#0475c5), color-stop(1, #0476c7));  /* Webkit浏览器*/
+  /*background-image:  -moz-linear-gradient(left top, left bottom,color-stop(0, #0477c7),color-stop(0.5,#0475c5), color-stop(1, #0476c7));  /*Mozilla浏览器*/
+  /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0477c7,endColorstr=#0476c7,grandientType=1); /*IE浏览器*/
+}
+
+.platform-course-img {
+  height: 100%;
+}
+
+.platform-course-img>img {
+  position: absolute;
+  padding: 0px 0px 0px 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 40%;
+}
+
+.platform-course-content {
+  height: 100%;
+  background: url(/static/img/threeLiner.65395b9.png) no-repeat;
+  background-size: 100% 93%;
+  background-position-y: 90%;
+}
+
+.platform-course-content-colls {
+  position: absolute;
+  width: 18%;
+  height: 50%;
+}
+
+.coll1 {
+  left: 2%;
+  top: 34%;
+}
+
+.coll2 {
+  left: 18%;
+  top: 21.5%;
+}
+
+.coll3 {
+  left: 34%;
+  top: 19.5%;
+}
+
+.coll4 {
+  left: 52%;
+  top: 30.5%;
+}
+
+.coll5 {
+  left: 69%;
+  top: 16%;
+}
+
+.coll6 {
+  left: 85%;
+  top: 15%;
+}
+
+.platform-course-content-colls-detail {
+  position: relative;
+  padding: 20px 5px;
+  width: 84%;
+  height: 23%;
+  overflow: hidden;
+  /*background-color:#586b82;*/
+  background: rgba(255, 255, 255, 0.1) !important;
+  /*filter:Alpha(opacity=20); background:#fff; 　使用IE专属滤镜实现IE背景透明*/
+  line-height: 168%;
+  color: #FFF;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .coll1 {
+    left: 2%;
+    top: 33%;
+  }
+  .coll2 {
+    left: 18%;
+    top: 20%;
+  }
+  .coll3 {
+    left: 34%;
+    top: 18%;
+  }
+  .coll4 {
+    left: 52%;
+    top: 29.5%;
+  }
+  .coll5 {
+    left: 69%;
+    top: 15%;
+  }
+  .coll6 {
+    left: 85%;
+    top: 14%;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .coll1 {
+    left: 2%;
+    top: 32%;
+  }
+  .coll2 {
+    left: 18%;
+    top: 20%;
+  }
+  .coll3 {
+    left: 34%;
+    top: 18%;
+  }
+  .coll4 {
+    left: 52%;
+    top: 29.5%;
+  }
+  .coll5 {
+    left: 69%;
+    top: 14%;
+  }
+  .coll6 {
+    left: 85%;
+    top: 13%;
+  }
+  .platform-course-content-colls-detail {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .coll1 {
+    left: 2%;
+    top: 29%;
+  }
+  .coll2 {
+    left: 18%;
+    top: 16%;
+  }
+  .coll3 {
+    left: 34%;
+    top: 14%;
+  }
+  .coll4 {
+    left: 52%;
+    top: 25.5%;
+  }
+  .coll5 {
+    left: 69%;
+    top: 15%;
+  }
+  .coll6 {
+    left: 85%;
+    top: 13%;
+  }
+  .platform-course-content-colls-detail {
+    font-size: 12px;
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 1465px) {
+  .coll1 {
+    left: 2%;
+    top: 30%;
+  }
+  .coll2 {
+    left: 18%;
+    top: 18%;
+  }
+  .coll3 {
+    left: 34%;
+    top: 16%;
+  }
+  .coll4 {
+    left: 52%;
+    top: 26.5%;
+  }
+  .coll5 {
+    left: 69%;
+    top: 11%;
+  }
+  .coll6 {
+    left: 85%;
+    top: 13%;
+  }
+  .platform-course-content-colls-detail {
+    font-size: 12px;
+    padding-top: 5px;
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .coll1 {
+    left: 2%;
+    top: 30%;
+  }
+  .coll2 {
+    left: 18%;
+    top: 18%;
+  }
+  .coll3 {
+    left: 34%;
+    top: 16%;
+  }
+  .coll4 {
+    left: 52%;
+    top: 26.5%;
+  }
+  .coll5 {
+    left: 69%;
+    top: 11%;
+  }
+  .coll6 {
+    left: 85%;
+    top: 13%;
+  }
+  .platform-course-content-colls-detail {
+    font-size: 12px;
+    padding-top: 5px;
+    height: 30%;
+  }
+}
+
+.platform-course-content-colls-detail:last-child {
+  margin-left: -9%;
+}
+
+.platform-course-content-colls-detail-left {
+  position: absolute;
+  width: 33px;
+  height: 78px;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  background: url('../assets/PlatformCourse/trangle.png') no-repeat;
+}
+
+.platform-course-content-colls-detail-left {
+  position: absolute;
+  width: 33px;
+  height: 78px;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  background-image: url('../assets/PlatformCourse/trangle.png');
+}
+
+.platform-course-content-colls-detail-word {
+  position: relative;
+}
+
+.platform-course-content-colls-dotted {
+  width: 1px;
+  height: 50%;
+  border-left: 2px dashed #fff;
+  margin: 2% 49%;
+}
+
+.dotted1 {
+  height: 50%;
+}
+
+.dotted2 {
+  height: 50%;
+}
+
+.dotted3 {
+  height: 50%;
+}
+
+.dotted4 {
+  height: 28%;
+}
+
+.dotted5 {
+  height: 23%;
+}
+
+.dotted6 {
+  height: 50%;
+}
+
+.platform-course-content-colls-circular {
+  width: 38px;
+  height: 38px;
+  margin: 0 43%;
+  background-image: url('../assets/PlatformCourse/point.png');
+}
+
+.platform-course-content-colls-year {
+  width: 100px;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 43%;
+}

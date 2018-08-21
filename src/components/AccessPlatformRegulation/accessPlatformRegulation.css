@@ -1,0 +1,46 @@
+div.accessPlatform-regulation-part {
+  transition: all .4s;
+  cursor: pointer;
+}
+div.accessPlatform-regulation-part:hover {
+  background: rgb(74, 104, 134);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  zoom: 1.01;
+}
+
+p.accessPlatform-regulation-head {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+div.accessPlatform-regulation-detail-part{
+  margin-left: 20px;
+}
+span.online-platform_total_number {
+  display: block;
+  font-size: 40px;
+  color: #4D5F74;
+}
+.access-platform-echarts{
+  height: 100px;
+}
+/* div.online-platform-total{
+  margin-top: 108px;
+} */
+.online-platform-total label,
+.accessPlatform-regulation-detail label {
+  font-size: 12px;
+  color: #CDD0D5
+}
+.accessPlatform-regulation-detail label,
+.accessPlatform-regulation-detail img{
+  cursor: pointer;
+}
+div.accessPlatform-regulation-detail>div{
+  margin: 20px auto;
+}
+
+
+

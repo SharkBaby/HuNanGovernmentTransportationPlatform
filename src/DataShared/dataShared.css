@@ -1,0 +1,194 @@
+.data-shared {
+  height: 88%;
+  min-height: 570px;
+}
+
+/* data-shared-left */
+
+.data-shared-left {
+  height: 76%;
+  background: url('../assets/Views/DataShared/dashed.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #fff;
+  margin-top: 3%;
+}
+
+.dataShared-left-position-left {
+  width: 33%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.networked-control {
+  top: -6%;
+  left: 54%;
+}
+
+.networked-control label {
+  display: inline-block;
+  margin-top: 34%;
+  margin-right: 29px;
+  font-size: 12px;
+}
+
+.networked-control,
+.provincial-police,
+.transportation-information,
+.freight-transport,
+.tourism {
+  width: 52%;
+  height: 26%;
+  position: absolute;
+  background: url('../assets/Views/DataShared/yellowSys.png') no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+.provincial-police {
+  top: 48%;
+  left: 12%;
+}
+
+.dataShared-left-position-center {
+  width: 33%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.supervise-to-networkedControl {
+  position: absolute;
+  width: 43%;
+  height: 22%;
+  background: url('../assets/Views/DataShared/singleArrowBlue.png') no-repeat;
+  text-align: center;
+  background-size: contain;
+  position: absolute;
+  left: 3%;
+  top: 17%;
+}
+
+.freightPlateformBlue {
+  background: url('../assets/Views/DataShared/singleArrowRedDown.png') no-repeat;
+  background-size: contain;
+}
+
+.supervise-to-freightTransport {
+  width: 43%;
+  height: 22%;
+  text-align: center;
+  position: absolute;
+  left: 65%;
+  top: 16%;
+}
+
+.supervise {
+  width: 30%;
+  background: url('../assets/Views/DataShared/sys.png') no-repeat;
+  background-size: contain;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+.supervise label {
+  display: inline-block;
+  margin-top: 72%;
+  font-size: 12px;
+}
+
+.transportation-information {
+  bottom: -19%;
+  left: 30%;
+}
+
+.supervise-to-provincialPolice {
+  width: 43%;
+  height: 22%;
+  background: url('../assets/Views/DataShared/dashedArrowBlueLet.png') no-repeat;
+  background-size: contain;
+  text-align: center;
+  position: absolute;
+  left: -20%;
+  top: 44%;
+}
+
+.supervise-to-tourism {
+  width: 43%;
+  height: 22%;
+  text-align: center;
+  position: absolute;
+  left: 90%;
+  top: 44%;
+}
+
+.tourismPlateformRed {
+  background: url('../assets/Views/DataShared/dashedArrowRed.png') no-repeat;
+  background-size: contain;
+}
+
+.supervise-to-ttransportationInformation {
+  width: 43%;
+  height: 22%;
+  background: url('../assets/Views/DataShared/doubbleArrowblue.png') no-repeat;
+  background-size: contain;
+  text-align: center;
+  position: absolute;
+  left: 37%;
+  top: 66%;
+}
+
+.dataShared-left-position-right {
+  width: 33%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.freight-transport {
+  right: 41%;
+  top: -6%;
+}
+
+.freight-transport label,
+.tourism label,
+.transportation-information label,
+.provincial-police label {
+  display: inline-block;
+  margin-top: 40%;
+  margin-right: 29px;
+  font-size: 12px;
+}
+
+.tourism {
+  top: 48%;
+  right: 0;
+}
+
+/* data-shared-right */
+
+.data-shared-right {
+  background-color: #25384f;
+  color: #fff;
+}
+.data-shared-right h3{
+    background: #4079BE;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1.5%;
+    margin: 0;
+}
+.data-shared-right h4 {
+  background: url('../assets/Views/DataShared/title.png') no-repeat;
+  text-align: center;
+  line-height: 36px
+}
+
+.data-shared-gauge {
+  height: 300px;
+  width: 100%;
+}
+

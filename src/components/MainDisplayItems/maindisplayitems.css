@@ -1,0 +1,51 @@
+ul.left-ico-list {
+  margin: auto;
+  padding-left: 0;
+  height: 7%;
+  min-height: 45px;
+}
+
+ul.left-ico-list>li {
+  display: inline-block;
+  list-style: none;
+}
+
+.left-ico-list li .ban6 {
+  background-position: -400px 0px;
+}
+
+.left-ico-list li .share {
+  background-position: -300px 0px;
+}
+
+.left-ico-list li .report {
+  background-position: -350px 0px;
+}
+
+.left-ico-list li .companySupervise {
+  background-position: -441px -134px;
+}
+
+.left-ico-list li span {
+  display: inline-block;
+  width: 30px;
+  height: 35px;
+  background: url('../../assets/weather-icon.png') no-repeat;
+  margin: 0 5px;
+}
+
+.left-ico-list li a {
+  line-height: 35px;
+  display: flex;
+  padding: 5px 3px;
+  cursor: pointer;
+  color: #fff;
+}
+.left-ico-list .page-load:hover {
+  color: #02F4F5;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  zoom: 1.05;
+}
+

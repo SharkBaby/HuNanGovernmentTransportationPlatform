@@ -1,0 +1,60 @@
+.superviseCheckSentry {
+  background-color: #34495e;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 102px;
+  padding: 0 2%;
+}
+
+.el-tabs__item {
+  color: #fff;
+}
+
+.supervise-tabs,
+.supervise-tabs-pane {
+  height: 100%;
+}
+
+.supervise-top {
+  height: 365px;
+  margin: 10px auto;
+  background-color: #2D4051;
+  overflow: auto;
+}
+
+.check-content-col {
+  height: 30px;
+  margin-top: 10px;
+}
+
+/* bottom */
+
+.supervise-bottom {
+  height: 365px;
+  margin: 10px auto;
+  background-color: #2D4051;
+  text-align: center;
+}
+
+.companychecksentry-content-top-head {
+  text-align: left;
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.question-input,
+.answer-input {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.supervise-button {
+  margin-top: 30px;
+}
+

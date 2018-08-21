@@ -1,0 +1,48 @@
+#check-manage .el-row {
+  display: inline-block;
+}
+
+/* ZoneCheckRank */
+
+.zone-check-multilevel {
+  max-width: 1470px;
+  max-height: 747px;
+  overflow-y: scroll;
+}
+
+/* ZoneCheckPrint */
+.zone-check-eltree{
+  max-height: 809px;
+  overflow: auto;
+  width: 199px;
+}
+
+/* ProviderCheckRank */
+
+.provider-chkrank-multilevel {
+  max-width: 1470px;
+  max-height: 723px;
+  overflow-y: scroll;
+}
+
+/* ProviderCheckPrint */
+
+.single-date-picker {
+  margin-left: 20px;
+}
+/* 加入打印样式的控制 */
+@media print {
+  .noprint {
+    display: none;
+  }
+  /* 规定A4打印纸张的宽度 */
+  .print-part {
+    width: 646px; 
+  }
+  /* 因为打印的时候A4的纸张大小只有646px */
+  .print-part .el-table__header,
+  .print-part .el-table__body{
+    width: unset !important;
+  }
+}
+

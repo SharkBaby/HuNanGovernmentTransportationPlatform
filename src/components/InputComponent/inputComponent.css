@@ -1,0 +1,44 @@
+.input-text {
+  width: 140px;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+}
+
+.input-text+.input-text {
+  margin-left: 20px;
+}
+
+/* Set label name height */
+
+.label-name {
+  line-height: 30px;
+}
+
+/* Start - 预搜索功能 */
+
+.pre-search {
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+  color: rgb(53, 53, 53);
+  width: 140px;
+  line-height: 25px;
+  padding-left: 15px;
+}
+
+
+.pre-search-item {
+  display: block !important;
+}
+.pre-search-item:hover {
+  background: rgb(253, 245, 206);
+  color: rgb(200, 120, 22);
+}
+
+
+.pre-search-item>label {
+  cursor: pointer;
+}
+
+/* End - 预搜索功能 */

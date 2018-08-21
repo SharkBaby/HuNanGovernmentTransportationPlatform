@@ -1,0 +1,13 @@
+.single-datepicker-component {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Set label name height */
+
+.label-name {
+  display: block !important;
+  line-height: 30px;
+}

@@ -1,0 +1,185 @@
+/* platformComponentsTopleft */
+.platformComponentsTopleft{
+  min-width: 785px;
+  min-height: 233px;
+}
+.platformComponentsTopleft,
+.platformComponentTopright,
+.platformComponentBottomcenter {
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.platformComponentBottomleft {
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.platformComponentBottomright {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.platform-top-left-col,
+.platform-top-right-col {
+  height: 100%;
+}
+
+.platfom-title-font {
+  font-size: 1.15em;
+  color: #ffffff;
+  line-height: 2.2em;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.platfrom-content-linksituation ul {
+  height: 100%;
+  color: #FFF;
+  font-size: 0.8em;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  padding-left: 10px;
+}
+
+.platfrom-content-linksituation ul li {
+  height: 7.9%;
+  margin-top: 1.5%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.platform-link-left {
+  width: 7px;
+  height: 100%;
+  display: inline-block;
+}
+
+/* 通的样式 */
+
+div.connect {
+  background: #3dbeef;
+}
+
+div.mainconnect {
+  background: #0056c0;
+}
+
+div.subordinateconnect {
+  background: #2b7cc0;
+}
+
+/* 断的样式 */
+
+div.disconnect {
+  background: #fc5928;
+}
+
+.platform-link-arrow {
+  position: absolute;
+  left: 7px;
+  top: 30%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent;
+  /* border-left-color: #002546; */
+  border-left-color: #0056c0;
+}
+
+.platfrom-content-link-name {
+  margin-left: 2%;
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.platfrom-content-linksituation ul li span {
+  float: right;
+  margin: 1.1% 1.5% 0 0;
+}
+
+.platfrom-content-linksituation {
+  height: 85%;
+  overflow-y: auto;
+}
+
+.platform-content-checksentry-basic {
+  height: 2.2em;
+  width: 31px;
+  cursor: pointer;
+  float: right;
+}
+
+.platform-content-checksentry-hover {
+  background: url(../../assets/Views/Platform/platformSentry1.png) no-repeat;
+}
+
+.platform-content-checksentry-out {
+  background: url(../../assets/Views/Platform/platformSentry0.png) no-repeat;
+}
+
+/* platformComponentTopright */
+
+.topright-col {
+  height: 100%;
+}
+
+/* platformComponentBottomLeft */
+
+.platform-title {
+  height: 10%;
+}
+
+.platform-body {
+  height: 90%;
+}
+
+.platfom-baseinfo-more-base {
+  height: 2.2em;
+  width: 31px;
+  cursor: pointer;
+  float: right;
+}
+
+.platfom-baseinfo-more-click {
+  background: url(../../assets/Views/Industry/more0.png) no-repeat;
+}
+
+.platfom-baseinfo-more-toggleclick {
+  background: url(../../assets/Views/Industry/more1.png) no-repeat;
+}
+
+.platfom-location-configure {
+  height: 2.2em;
+  width: 31px;
+  cursor: pointer;
+  float: right;
+}
+
+.platfom-location-configure-hover {
+  background: url(../../assets/Views/Platform/set1.png) no-repeat;
+}
+
+.platfom-location-configure-out {
+  background: url(../../assets/Views/Platform/set0.png) no-repeat;
+}
+
+/* PlatformComponnetBottomCenter */
+
+div.bottom-center-checkbox-group {
+  margin-left: 20%;
+  height: 388px;
+  overflow-y: auto;
+}
+
+p.bottom-center-dialog-p {
+  line-height: 40px;
+  padding-left: 20px;
+  color: rgba(255, 38, 38, 0.99);
+}
+.bottom-center-dialog .el-dialog__body{
+  padding: unset;
+}

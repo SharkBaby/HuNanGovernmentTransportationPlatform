@@ -1,0 +1,180 @@
+/* First Part */
+
+.delete-icon {
+  background: url('../../assets/SystemConfig/delete_addIcon.png') no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.delete_provider_btn {
+  background-position: -43px 0;
+  margin-left: 15px;
+}
+
+.add_provider_btn {
+  background-position: -127px 0;
+}
+
+.Provider,
+.AccessPlateformAutoCheck,
+.PlatfromCheckSentry,
+.VehicleRandomInspection,
+.CheckConfig {
+  color: #fff !important;
+  font-size: 14px;
+  height: 817px;
+}
+
+.provider-config-zone {
+  width: 96%;
+  height: 8%;
+  box-sizing: border-box;
+  margin-left: 2%;
+  padding-top: 1%;
+}
+
+/* Second Part */
+
+.provider-config-show {
+  width: 96%;
+  height: 40%;
+  margin-left: 2%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.provider-config-operate {
+  width: 50%;
+  /* height: 15%; */
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+/* Third Part */
+
+.provider-config-add {
+  margin-top: 1%;
+  width: 96%;
+  height: 40%;
+  margin-left: 2%;
+  background-color: rgba(38, 56, 70, 0.5);
+}
+
+.provider-config-select-all {
+  margin-left: 17px;
+  margin-right: 17px;
+  cursor: pointer;
+}
+
+.provider-config-reveal {
+  width: 100%;
+  height: 84%;
+  overflow-x: hidden;
+  overflow-y: auto !important;
+}
+
+.provider-config-table {
+  width: 92%;
+  height: 89%;
+  list-style: none;
+}
+
+.provider-config-table li {
+  float: left;
+  width: 280px;
+  height: 58px;
+  margin-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  /* border-top: 1px solid #3B424A; */
+  /* border: 1px solid #3B424A; */
+  box-sizing: border-box;
+}
+
+/* AccessPlateformAutoCheck */
+
+.config-content {
+  margin-left: 40px;
+}
+
+label.label-name {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.check-time-setting .select-text,
+/* VihicleRandomInspection */
+
+.vhcleRandom-checkbox {
+  margin-left: 0 !important;
+  width: unset !important;
+}
+
+div.config-check,
+div.config-button,
+/* for PlatfromCheckSentry */
+
+div.platform-check-sentry-toggle {
+  line-height: 80px;
+}
+
+div.config-button .btn-com {
+  margin: 0;
+}
+
+/* PlatfromCheckSentry */
+
+.platform-check-sentry-body {
+  width: 900px;
+  height: 80%;
+  border: 1px solid gray;
+  margin: 20px;
+  padding-left: 20px;
+  overflow-y: auto;
+}
+
+.platform-check-sentry-time {
+  margin: 20px auto;
+}
+
+/* VihicleRandomInspection */
+
+.VehicleRandomInspection {
+  margin: 40px;
+  width: 433px;
+}
+
+.vhcleRandom-label-input {
+  height: 450px;
+  width: 450px;
+  overflow: auto;
+}
+
+div.random-item {
+  margin-top: 10px;
+}
+
+.vhcleRandom-button .btn-com {
+  width: 100%;
+}
+
+/* CheckConfig */
+
+div.check-config-page {
+  width: 96%;
+  margin: 20px auto;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  height: 90%;
+}
+.chkconfig-button{
+  text-align: center;
+}
+

@@ -1,0 +1,17 @@
+/* set Tab Header */
+
+div.el-tabs__nav {
+  text-align: center;
+  float: none;
+}
+
+div.el-tabs__item {
+  color: #fff;
+  font-size: 16px;
+}
+
+div.el-tabs__active-bar {
+  display: inline;
+  left: auto;
+}
+

@@ -1,0 +1,173 @@
+.companySupervise-part {
+  /* background-color: #203044;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 102px;
+  padding: 0 1%; */
+  height: 88%;
+}
+
+.company-right {
+  padding-left: 1%;
+  height: 100%;
+}
+
+.company-index {
+  box-shadow: 1px 1px 15px #576E89 inset;
+  text-align: center;
+}
+
+.companyindex-number-avg {
+  height: 100px;
+  display: inline-block;
+}
+
+.companyindex-number-outer {
+  width: 72px;
+  height: 72px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  float: left;
+  top: calc(50% - 35px);
+  position: relative;
+}
+
+.companyindex-number-detail {
+  float: left;
+  top: calc(50% - 35px);
+  position: relative;
+  text-align: left;
+}
+
+.companyindex-number-detail p {
+  margin: 5px;
+  font-family: "宋体";
+}
+
+.companyindex_company_pass,
+.companyindex_company_notpass {
+  color: #808891;
+}
+
+.companyindex-number-inner {
+  width: 57px;
+  height: 57px;
+  border-radius: 50px;
+  border: 3px solid #22C075;
+  margin: 4px 0 0 4px;
+}
+
+.companyindex-number-inner label {
+  font-size: 25px;
+  line-height: 52px;
+}
+
+/*  */
+
+.company-col {
+  cursor: pointer;
+}
+
+.companyindex-number-item {
+  text-align: center;
+}
+
+.companyindex-icon {
+  background: url('../assets/icons.png') no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 35px;
+}
+
+.companyindex-number-all {
+  background-position: -441px -128px;
+}
+
+.companyindex-number-bus {
+  /* display: inline-block;
+  width: 30px;
+  height: 30px; */
+  background-position: -315px -355px;
+}
+
+.companyindex-number-danger {
+  /* display: inline-block;
+  width: 30px;
+  height: 35px; */
+  background-position: -370px -350px;
+}
+
+.companyindex-number-heavy {
+  display: inline-block;
+  width: 30px;
+  height: 35px;
+  background-position: -420px -350px;
+}
+
+.companyindex_company_heji {
+  font-size: 26px;
+}
+
+.companyindex-number-head {
+  font-size: 12px;
+  color: gray;
+}
+
+.companyindex-number-bus-color {
+  color: #22C075;
+}
+
+.companyindex-number-danger-color {
+  color: #D0181A;
+}
+
+.companyindex-number-heavy-color {
+  color: #F98B3A;
+}
+
+/* settings-row */
+
+.settings-row {
+  padding-top: 10px;
+}
+
+.settings-row>i {
+  position: relative;
+  margin-right: -15px;
+}
+
+.companyindex-search-btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.companyindex-search-btn a:last-child {
+  background: #12C5EB;
+}
+
+.companyindex-link-item {
+  cursor: pointer;
+  background: #4D9DFE;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.companyindex-check-btn {
+  background-position: -440px -190px;
+}
+
+.companyindex-info-btn {
+  background-position: -480px -190px;
+}
+
+.input-with-select {
+  width: 350px;
+}
+

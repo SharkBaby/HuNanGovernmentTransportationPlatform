@@ -1,0 +1,9 @@
+div.header-container {
+  /* // Update by : Perry
+  // Update Date: 2018-04-27
+  // Update Reason: comment this background color as there is change theme functionality*/
+  background-color: #2C4257;
+  color: #fff;
+  height: 11%;
+  min-height: 102px;
+}

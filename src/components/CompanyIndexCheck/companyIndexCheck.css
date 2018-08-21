@@ -1,0 +1,67 @@
+.companyIndexCheck {
+  margin-left: 1%;
+  height: 25%;
+}
+
+.companyIndexCheck .companyindex-header {
+  padding: 0px;
+  height: 15%;
+  margin: 0px;
+  text-align: left;
+  padding-left: 10px;
+  background: #2F445F;
+  color: #fff;
+}
+
+.companyIndexCheck .companyindex-header a {
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/icons.png') no-repeat;
+  float: right;
+}
+
+.companyIndexCheck .companyindex-header a:nth-child(1) {
+  background-position: -375px -404px;
+}
+
+.companyIndexCheck .companyindex-header a:nth-child(2) {
+  background-position: -285px -404px;
+}
+
+.companyIndexCheck .companyindex-header-down {
+  background-position: -240px -404px !important;
+}
+
+/* dashboard */
+
+.companyindex-check-content {
+  height: 85%;
+  /* background: #27394F; */
+}
+
+.companyindex-check-item {
+  width: 10%;
+  height: 100%;
+  position: relative;
+  margin-left: 2%;
+  float: left;
+}
+
+.companyindex-check-item-outer {
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  width: 80%;
+  height: 90%;
+  background: #3F4C5C;
+}
+
+.companyindex-check-item-inner {
+  background: #188EEE;
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  left: 10%;
+  bottom: 0px;
+}
+

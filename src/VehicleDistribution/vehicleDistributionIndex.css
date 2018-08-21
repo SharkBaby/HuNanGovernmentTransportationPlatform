@@ -1,0 +1,153 @@
+.vehicleDistribution {
+  /* position: absolute;
+  top: 102px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #34495e; */
+  height: 88%;
+  min-height: 570px;
+}
+
+.vehicle-col-left {
+  height: 30%;
+}
+
+.vehicle-col-left-pie {
+  height: 100%;
+  width: 40%;
+  margin: auto;
+}
+
+.vehicle-col-center {
+  height: 100%;
+}
+
+.vehicle-col-right {
+  float: right;
+}
+
+.vehicle-col-right .el-tabs--border-card {
+  background: none;
+}
+
+/* 感悟：选择除第一个以为的其他元素 */
+
+.chkbox-all-vehicle .el-checkbox+.el-checkbox {
+  margin-left: 20px;
+}
+
+.chkbox-all-vehicle>.el-checkbox {
+  color: #fff;
+}
+
+/* 重点车辆 */
+
+.important-vehicle-button .el-button+.el-button,
+.important-vehicle-button .el-button {
+  margin: 10px 10px 10px 0;
+}
+
+.license-plat {
+  margin: 10% 0 5px 15px;
+}
+
+.vehicle-distribution-right-vehicle-detail {
+  height: 100%;
+}
+
+.vehicle-distribution-right-vehicle-detail>div {
+  height: 21.25%;
+  width: 100%;
+  background: #27394F;
+  border: 1px solid #78818A;
+}
+
+.vehicle-distribution-vehicle-photo div {
+  width: 30%;
+  height: 80%;
+  margin: 3% 0 0 7.87%;
+  display: block;
+  float: left;
+  background: #0769b0;
+  border: 1px solid #79828B;
+}
+
+.vehicle-distribution-detail-title {
+  margin: 8px 0 8px 7.87%;
+}
+
+.vehicle-distribution-detail-item {
+  height: 20%;
+}
+
+.vehicle-distribution-detail-item label:first-child {
+  width: 34.42%;
+  display: block;
+  text-align: right;
+  float: left;
+}
+
+.vehicle-distribution-detail-item label:last-child {
+  width: 65.58%;
+  display: block;
+  text-align: left;
+  float: left;
+}
+
+.vehicle-distribution-icon {
+  width: 58px;
+  height: 58px;
+  bottom: 31px;
+  text-align: center;
+  position: absolute;
+  border-radius: 35px;
+  border: 1px solid #0F1A1F;
+  cursor: pointer;
+}
+
+.vehicle-distribution-synchronous {
+  background: url('../assets/Views/Industry/frameIcons.png') no-repeat;
+  background-position: 65% 72%;
+  right: 80px;
+}
+
+.vehicle-distribution-synchronous:hover,
+.vehicle-distribution-synchronous-return:hover {
+  border: 1px solid #38E300;
+}
+
+.vehicle-distribution-synchronous-return {
+  background: url('../assets/Views/Industry/frameIcons.png') no-repeat;
+  background-position: 84% 72%;
+  right: 10px;
+}
+
+.hide-important-part {
+  display: none;
+}
+
+.vehicle-col-right #pane-1 {
+  height: 726px;
+  color: #fff;
+}
+/* Start - 预搜索功能 */
+.pre-search {
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+  color: rgb(53, 53, 53);
+  width: 611px;
+  line-height: 25px;
+  padding-left: 15px;
+}
+
+.pre-search-item:hover {
+  background: rgb(253, 245, 206);
+  color: rgb(200, 120, 22);
+}
+
+.pre-search-item>label {
+  cursor: pointer;
+}
+/* End - 预搜索功能 */

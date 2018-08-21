@@ -1,0 +1,68 @@
+.companyIndexFatigue {
+  margin-left: 1%;
+}
+
+.companyIndexFatigue .companyindex-header {
+  padding: 0px;
+  line-height: 30px;
+  margin: 0px;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 10px;
+  background: #2F445F;
+  color: #fff;
+}
+
+.companyIndexFatigue .companyindex-header a {
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/icons.png') no-repeat;
+  float: right;
+}
+
+.companyIndexFatigue .companyindex-header a:nth-child(1) {
+  background-position: -375px -404px;
+}
+
+.companyIndexFatigue .companyindex-header a:nth-child(2) {
+  background-position: -285px -404px;
+}
+
+.companyIndexFatigue .companyindex-header-down {
+  background-position: -240px -404px !important;
+}
+
+/* companyindex-rank-right */
+
+.companyindex-fatigue-right ul {
+  padding: 0;
+  margin: 0px;
+}
+
+/* Arrow */
+
+.companyindex-fatigue-right {
+  height: 270px;
+  /* background: #27394F; */
+}
+
+.companyindex-fatigue-right ul li {
+  list-style: none;
+  height: 3.5vh;
+}
+
+.companyindex-fatigue-inner {
+  height: 100%;
+  width: 0%;
+  display: block;
+  background: #188FED;
+}
+
+.companyindex-fatigue-total {
+  height: 10px;
+  width: 80%;
+  display: inline-block;
+  background: #1E2E3E;
+  margin-left: 5px;
+}
+

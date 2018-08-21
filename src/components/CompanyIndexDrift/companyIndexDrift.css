@@ -1,0 +1,44 @@
+.companyIndexDrift{
+  /* background: #27394F; */
+}
+.companyIndexDrift .companyindex-header {
+
+  padding: 0px;
+  line-height: 30px;
+  margin: 0px;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 10px;
+  background: #2F445F;
+  color: #fff;
+}
+
+.companyIndexDrift .companyindex-header a {
+
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/icons.png') no-repeat;
+  float: right;
+}
+
+.companyIndexDrift .companyindex-header a:nth-child(1) {
+
+  background-position: -375px -404px;
+}
+
+.companyIndexDrift .companyindex-header a:nth-child(2) {
+
+  background-position: -285px -404px;
+}
+
+.companyindex-header-down {
+  background-position: -240px -404px !important;
+}
+/*  */
+div#companyIndexDrift-echarts {
+  width: 100%;
+  height: 270px;
+}
+
+
+

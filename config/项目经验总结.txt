@@ -1,0 +1,13 @@
+1. computed 计算得到的结果不能参与methods里面的计算，因为他不会更新视图除非依赖的变量发生了变化（2018-05-24）
+2. data 里面的数组是检测不到数据变化的， 只有通过json 数据格式才能检测到数据变化，触发computed
+3. indexOf 需要通过下面的比较来判断 resultData.xAxisdata.indexOf(item.Hour) >= 0
+4. myChart.resize();//注意这里需要手动的重新绘制
+5. 但其他页面需要使用到当前页面的数据的时候可以将数据暂时存储到localStorage 或者sessionStorage 里面减少内存的消耗
+6. /* 感悟：选择除第一个以为的其他元素 */
+    .chkbox-all-vehicle .el-checkbox+.el-checkbox{
+    margin-left: 10px;
+    }
+7.  el-checkbox 只能使用@change事件，不能使用@mouseup 等其他事件 <el-checkbox v-model="checked" @change="">备选项</el-checkbox>
+    <el-checkbox v-model="vhcleItem.compVal" v-for="(vhcleItem, vhcleKey) of vhcleRslt" :key="vhcleKey" @change="handleVhcleType(vhcleKey)">{{vhcleItem.labelName}}</el-checkbox>
+8.  在往数组里面push新的元素的时候，要记得先清空旧数据，然后在进行push操作（2018-06-01）
+9. json对象里面不能使用for of循环，可以使用for in循环来遍历 2018-06-14

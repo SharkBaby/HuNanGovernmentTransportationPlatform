@@ -1,0 +1,22 @@
+div.vehicle-distribute-part{
+  padding: 16px;
+  transition: all .4s;
+  cursor: pointer;
+}
+div.vehicle-distribute-part:hover {
+  background: rgb(74, 104, 134);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  zoom: 1.01;
+}
+
+p.vehicle-distribute-head {
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+div#vehicle-distribute-echarts{
+  width: 600px;
+  height: 340px;
+}

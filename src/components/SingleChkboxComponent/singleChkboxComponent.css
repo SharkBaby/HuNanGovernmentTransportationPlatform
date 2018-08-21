@@ -1,0 +1,10 @@
+.single-chkbox-text {
+  display: inline;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.single-chkbox-text>.el-checkbox {
+  color: #fff;
+}

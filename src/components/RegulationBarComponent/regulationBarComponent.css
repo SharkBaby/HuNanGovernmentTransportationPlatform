@@ -1,0 +1,35 @@
+.regulatioBarComponent {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.regulation-title {
+  height: 10%;
+}
+
+.regulation-title-font {
+  font-size: 1.15em;
+  color: #ffffff;
+  line-height: 2.2em;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.regulation-body {
+  height: 90%;
+}
+
+.regulation-baseinfo-more-base {
+  height: 2.2em;
+  width: 31px;
+  cursor: pointer;
+  float: right;
+}
+
+.regulation-baseinfo-more-click {
+  background: url(../../assets/Views/Industry/more0.png) no-repeat;
+}
+
+.regulation-baseinfo-more-toggleclick {
+  background: url(../../assets/Views/Industry/more1.png) no-repeat;
+}

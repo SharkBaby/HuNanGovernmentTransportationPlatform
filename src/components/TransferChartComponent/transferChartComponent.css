@@ -1,0 +1,7 @@
+div.transferChartComponent,
+div.transferChartComponent-Echarts {
+  height: 100%;
+}
+div.transferChartComponent>.displayAllItems {
+  height: 875px;
+}

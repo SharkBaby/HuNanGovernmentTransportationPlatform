@@ -1,0 +1,92 @@
+.companyIndexCirclemap {
+  margin-left: 1%;
+  height: 25%;
+}
+
+.companyIndexCirclemap .companyindex-header {
+  padding: 0px;
+  height: 15%;
+  margin: 0px;
+  text-align: left;
+  padding-left: 10px;
+  background: #2F445F;
+  color: #fff;
+}
+
+.companyIndexCirclemap .companyindex-header a {
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/icons.png') no-repeat;
+  float: right;
+}
+
+.companyIndexCirclemap .companyindex-header a:nth-child(1) {
+  background-position: -375px -404px;
+}
+
+.companyIndexCirclemap .companyindex-header-down {
+  background-position: -285px -404px !important;
+}
+
+/* Dashboard */
+.companyindex-circlemap-content {
+  /* background: #27394F; */
+  height: 85%;
+}
+
+.companyindex-circlemap-item {
+  background-image: radial-gradient(#306E63 30%, #3BD13B 75%);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  margin: 10px 0 30px 20px;
+}
+
+.companyindex-circlemap-item-0 {
+  margin: 1% 0 0 1%;
+}
+
+.companyindex-circlemap-item-1 {
+  margin: 1% 0 0 15%;
+}
+
+.companyindex-circlemap-item-2 {
+  margin: 0.5% 0 0 30%;
+}
+
+.companyindex-circlemap-item-3 {
+  margin: 0.5% 0 0 45%;
+}
+
+.companyindex-circlemap-item-4 {
+  margin: 10px 0 0 60%;
+}
+
+.companyindex-circlemap-item-5 {
+  margin: 10px 0 0 75%;
+}
+
+.companyindex-circlemap-item-6 {
+  margin: 10% 0 0 10%;
+}
+
+.companyindex-circlemap-item-7 {
+  margin: 10% 0 0 25%;
+}
+
+.companyindex-circlemap-item-8 {
+  margin: 10% 0 0 40%;
+}
+
+.companyindex-circlemap-item-9 {
+  margin: 10% 0 0 55%;
+}
+
+.companyindex-circlemap-item label {
+  margin: 12px 0 0 2px;
+  display: inline-block;
+  font-size: 15px;
+}
+

@@ -1,0 +1,24 @@
+header {
+  text-align: center;
+}
+.dashboard-link{
+    text-decoration: none;
+}
+header h1 {
+  margin: auto;
+  line-height: 60px;
+}
+
+img.header-logo {
+  height: 38px;
+  vertical-align: middle;
+}
+
+label.header-label {
+  font-weight: normal;
+  font-size: 28px;
+  color: #fff;
+  font-family: fantasy;
+  cursor: pointer;
+}
+

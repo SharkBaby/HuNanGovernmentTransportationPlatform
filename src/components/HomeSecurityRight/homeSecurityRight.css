@@ -1,0 +1,12 @@
+div.home-security-right-part{
+  height: 100%;
+}
+.home-security-right .active{
+  background: rgb(73,92,110);
+}
+.home-security-right .home-security-right-item{
+  min-height: 30%;
+  text-align: center;
+  position: relative;
+  top: 11%;
+}

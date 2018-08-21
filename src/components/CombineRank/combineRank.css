@@ -1,0 +1,198 @@
+.combineRank {
+  /* background: #27394F; */
+}
+
+.combineRank .companyindex-header {
+
+  padding: 0px;
+  line-height: 30px;
+  margin: 0px;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 10px;
+  background: #2F445F;
+  color: #fff;
+}
+
+.combineRank .companyindex-header a {
+
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/icons.png') no-repeat;
+  float: right;
+}
+
+.combineRank .companyindex-header a:nth-child(1) {
+
+  background-position: -375px -404px;
+}
+
+.combineRank .companyindex-header a:nth-child(2) {
+
+  background-position: -285px -404px;
+}
+
+.combineRank .companyindex-header-down {
+
+  background-position: -240px -404px !important;
+}
+
+/* dashboard */
+
+.companyindex-rank-item {
+  width: 12.35%;
+  background: rgb(54, 79, 110);
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid;
+}
+
+.companyindex-rank-mark {
+  position: absolute;
+  top: -66px;
+  font-size: 15px;
+  color: #22C075;
+  text-align: center;
+  width: 100%;
+}
+
+.companyindex-rank-mark-1 {
+  border-radius: 50px;
+  border: 3px solid #22C075;
+  height: 55px;
+  width: 55px;
+  margin: auto;
+}
+
+.companyindex-rank-mark-2,
+.companyindex-rank-mark-3 {
+  border-radius: 50px;
+  border: 3px solid #22C075;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+}
+
+.companyindex-item {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.companyindex-col {
+  height: 322px;
+  position: absolute;
+}
+
+.companyindex-rank-8 {
+  height: 25%;
+  border-top-color: #D3FE00;
+  left: 0;
+}
+
+.companyindex-rank-6 {
+  height: 35%;
+  border-top-color: #00FFF7;
+  left: 12.5%;
+}
+
+.companyindex-rank-4 {
+  height: 45%;
+  border-top-color: #0189FF;
+  left: 25%;
+}
+
+.companyindex-rank-2 {
+  height: 55%;
+  border-top-color: #0055FF;
+  left: 37.5%;
+}
+
+.companyindex-rank-1 {
+  height: 60%;
+  border-top-color: #0055FF;
+  left: 50%;
+}
+
+.companyindex-rank-3 {
+  height: 50%;
+  border-top-color: #00FFAF;
+  left: 62.5%;
+}
+
+.companyindex-rank-5 {
+  height: 40%;
+  border-top-color: #84FF00;
+  left: 75%;
+}
+
+.companyindex-rank-7 {
+  height: 30%;
+  border-top-color: #FF6100;
+  left: 87.5%;
+}
+
+/* companyindex-rank-right */
+
+.companyindex-rank-right ul {
+  padding: 0;
+  margin: 0px;
+}
+
+.companyindex-rank-right-id {
+  color: gray;
+  width: 24px;
+  display: inline-block;
+}
+
+.companyindex-rank-icon {
+  background: url('../../assets/icons.png') no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* Arrow */
+
+.companyindex-rank-right {
+  float: right;
+  height: 322px;
+  overflow-y: auto;
+}
+
+.companyindex-rank-right ul li {
+  list-style: none;
+  height: 3.5vh;
+}
+
+.companyindex-middle {
+  background-position: -440px -58px;
+}
+
+.companyindex-up {
+  background-position: -495px -58px;
+}
+
+.companyindex-down {
+  background-position: -466px -55px;
+}
+
+.companyindex-rank-inner {
+  height: 100%;
+  width: 0%;
+  display: block;
+  border-radius: 5px;
+  background: #188FED;
+}
+
+.companyindex-rank-total {
+  height: 8px;
+  width: 74%;
+  display: inline-block;
+  border-radius: 5px;
+  background: #1E2E3E;
+}
+

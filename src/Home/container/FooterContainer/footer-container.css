@@ -1,0 +1,21 @@
+footer.home-footer {
+  /* position: absolute; */
+  /*let the footer place at the bottom of the current page instead of current window*/
+  bottom: 0;
+  width: 100%;
+  min-height: 52px;
+  background: url('../../../assets/footer.png') no-repeat;
+  /* // Update by : Perry
+  // Update Date: 2018-04-27
+  // Update Reason: comment this background color as there is change theme functionality*/
+  /* background-color: #34495e; */
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 0.8em;
+  position: relative;
+  bottom: -30px;
+}

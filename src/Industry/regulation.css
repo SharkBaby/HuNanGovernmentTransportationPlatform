@@ -1,0 +1,184 @@
+.regulation {
+  /* min-width: 1366px; */
+  height: 88%;
+}
+
+.regulation-row {
+  height: 100%;
+}
+
+.regulation-col-left {
+  height: 100%;
+}
+
+.regulation-content-left-top {
+  height: 49.5%;
+  border-bottom: 2px solid #132332;
+}
+
+/* Center */
+
+.regulation-col-center {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  position: relative;
+}
+
+.regulation-content-center-btn {
+  position: absolute;
+  bottom: 10px;
+  bottom: 0px;
+  right: 10px;
+}
+
+.regulation-map {
+  border: 1px solid #0F1A1F;
+  border-radius: 10px;
+  background: url(../assets/Views/Industry/frameIcons.png) no-repeat;
+  height: 58px;
+  width: 58px;
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+.regulation-map:hover {
+  border: 1px solid #38E300;
+}
+
+.regulation-map-info {
+  background-position: 29% 79%;
+}
+
+.regulation-map-checksentry {
+  background-position: 48% 79%;
+}
+
+.regulation-map-return {
+  background-position: 103% 58%;
+}
+
+/* 三个按钮 - 3D转换显示 */
+
+.hide-center {
+  display: none;
+}
+
+.hide-3d-transform {
+  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  /* Safari and Chrome */
+  -moz-transform: rotateY(90deg);
+  /* Firefox */
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition: 0.5s;
+  /* Safari 和 Chrome */
+  -o-transition: 0.5s;
+  /* Opera */
+}
+
+.show-default {
+  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  /* Safari and Chrome */
+  -moz-transform: rotateY(90deg);
+  /* Firefox */
+}
+
+.show-3d-transform {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  /* Safari and Chrome */
+  -moz-transform: rotateY(0deg);
+  /* Firefox */
+  transition: 1s;
+  -moz-transition: 1s;
+  /* Firefox 4 */
+  -webkit-transition: 1s;
+  /* Safari 和 Chrome */
+  -o-transition: 1s;
+  /* Opera */
+}
+
+.regulation-center-check-info-publish {
+  height: 100%;
+  width: 100%;
+}
+
+.regulation-center-check-info-publish .el-tabs__header {
+  line-height: 40px;
+  margin: unset;
+}
+
+.regulation-center-check-info-publish .el-tabs__content {
+  height: calc(100% - 40px);
+}
+
+.regulation-center-check-info-publish .el-tab-pane,
+.regulation-center-check-info-publish .tab-content,
+.regulation-center-check-info-publish .tab-left {
+  height: 100%;
+  overflow: auto;
+}
+
+.regulation-center-check-info-publish .tab-right {
+  padding: 30px 20px 0 20px;
+  color: #fff;
+}
+
+.tab-right .item-title {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.tab-right .item-datepicker {
+  margin-left: 20px;
+}
+
+.tab-right .searchcreteria-item,
+.tab-right .regulation-button {
+  margin-top: 10px;
+}
+
+/* 返回按钮 */
+
+.regulation-checksentry-return {
+  background-position: 84% 79%;
+  float: right;
+}
+
+/* set Tab Header */
+
+div.el-tabs__nav {
+  text-align: center;
+  float: none;
+}
+
+div.el-tabs__item {
+  color: #fff;
+  font-size: 16px;
+}
+
+div.el-tabs__active-bar {
+  display: inline;
+  left: auto;
+}
+
+.regulation-center-check-info-publish .answer-input {
+  margin-top: 20px;
+}
+
+.regulation-center-check-info-publish .supervise-button {
+  margin-top: 20px;
+}
+
+/* right */
+
+.regulation-col-right {
+  height: 100%;
+}
+
+.regulation-col-right-item {
+  height: 49.5%;
+}

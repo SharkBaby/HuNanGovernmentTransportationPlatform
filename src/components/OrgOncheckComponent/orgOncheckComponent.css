@@ -1,0 +1,80 @@
+.orgOncheckComponent>.level-title-font {
+  font-size: 1.1em;
+  color: #FBFCFC;
+  line-height: 15px;
+  padding-left: 10px;
+}
+
+.regulation-plateform-online-detail-mark {
+  height: 88%;
+}
+
+.regulation-plateform-online-detail-mark-div {
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+.title+label {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  left: 14%;
+  top: 15%;
+}
+
+.title {
+  width: 20px;
+  height: 20px;
+}
+
+.onGuard {
+  background-image: -webkit-radial-gradient(#06763B 30%, #02F704) !important;
+  background-image: -moz-radial-gradient(#06763B 30%, #02F704) !important;
+  background-image: radial-gradient(#306E63 30%, #3BD13B 75%) !important;
+}
+
+.post {
+  background-image: -webkit-radial-gradient(#2A4A63 30%, #69747A) !important;
+  background-image: -moz-radial-gradient(#2A4A63 30%, #69747A) !important;
+  background-image: radial-gradient(#2A4A63 30%, #9AA4B0 75%) !important;
+}
+
+.bubbel {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  -webkit-border-radius: 50%;
+}
+
+/* 动态图 */
+
+.org-oncheck-content {
+  color: #fff;
+  height: 80%;
+}
+
+/* 搬迁另外的css到这个文件实现模块的独立化 */
+
+.org-oncheck-content-item {
+  background-image: radial-gradient(#306E63 30%, #3BD13B 75%);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+}
+.org-oncheck-content-item label {
+  margin: 12px 0 0 2px;
+  display: inline-block;
+  font-size: 15px;
+}
+/* 控制mouseover事件的放大效果 */
+.oncheck-hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  /* zoom: 1.05; */
+  z-index: 1;
+}

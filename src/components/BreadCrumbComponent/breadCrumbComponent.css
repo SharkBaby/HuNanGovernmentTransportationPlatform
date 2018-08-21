@@ -1,0 +1,15 @@
+.el-breadcrumb {
+  line-height: 30px;
+}
+
+/* 父级目录样式 */
+
+.el-breadcrumb__inner.is-link {
+  color: #fff;
+}
+
+/* 当前层级样式 */
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  color: #fff;
+}

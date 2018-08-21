@@ -1,0 +1,24 @@
+.treeCheckboxComponent {
+  width: 140px;
+  display: inline-block;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* Remove margin left space for customized checkbox */
+
+.el-checkbox+.el-checkbox {
+  margin-left: 0;
+}
+
+.option-items {
+  height: 0;
+}
+
+/* Set label name height */
+
+.label-name {
+  line-height: 30px;
+}
+

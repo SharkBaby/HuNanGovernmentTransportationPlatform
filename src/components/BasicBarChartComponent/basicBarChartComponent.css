@@ -1,0 +1,11 @@
+div.basicBarChartComponent,
+div.basicBarChartComponent-Echarts {
+  height: 100%;
+}
+
+div.basicBarChartComponent>.displayAllItems {
+  width: 2500px;
+}
+div.basicBarChartComponent>.displayAllRegulationItems{
+  width: 790px;
+}

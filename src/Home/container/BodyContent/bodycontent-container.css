@@ -1,0 +1,43 @@
+div.home-main {
+  margin: auto 40px;
+  height: 93%;
+}
+
+/* set minim width for left part*/
+
+div.content-left {
+  min-width: 530px;
+  height: 100%;
+}
+
+.left-top {
+  border: #4D5E6E solid 0.5px;
+  border-bottom: 0;
+}
+
+.left-bottom {
+  border: #596574 solid 1px;
+}
+
+.home-accessPlatform-regulation {
+  border-left: 0.5px solid #6F7983;
+}
+
+div.home-security-left,
+div.home-security-right {
+  height: 100%;
+}
+
+div.content-right {
+  height: 100%;
+}
+
+.home-content {
+  height: 88%;
+}
+
+/* 首页的所有连接都去掉线 */
+
+.home-content a {
+  text-decoration: none;
+}

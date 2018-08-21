@@ -1,0 +1,13 @@
+.vertical-menu {
+  height: 100%;
+}
+
+.router-link {
+  text-decoration: none;
+}
+
+.left-navigation-menu {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

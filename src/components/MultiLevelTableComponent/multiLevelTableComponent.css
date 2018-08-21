@@ -1,0 +1,44 @@
+/* set Tab Header */
+
+div.el-tabs__nav {
+  text-align: center;
+  float: none;
+}
+
+div.el-tabs__item {
+  color: #fff;
+  font-size: 16px;
+}
+
+div.el-tabs__active-bar {
+  display: inline;
+  left: auto;
+}
+
+.multi-level-search-creteria {
+  margin-bottom: 10px;
+}
+
+/* ZoneCheckRank */
+
+.el-table__body-wrapper,
+.el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: unset;
+}
+
+.check-footer-p {
+  color: #fff;
+  font-size: 14px;
+  max-height: 38px;
+}
+/* pagination */
+.multi-level-pagination{
+  text-align: right;
+}
+  /* 调整分页的字体样式 */
+.multi-level-pagination .el-pagination__total,
+.multi-level-pagination .el-pagination__jump{
+  color: #fff;
+}
+
+

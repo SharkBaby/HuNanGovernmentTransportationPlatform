@@ -1,0 +1,11 @@
+.select-text {
+  width: 140px;
+  display: inline-block;
+  margin: auto 20px;
+  color: #fff;
+  font-size: 12px;
+}
+/* Set label name height */
+.label-name{
+  line-height: 30px;
+}

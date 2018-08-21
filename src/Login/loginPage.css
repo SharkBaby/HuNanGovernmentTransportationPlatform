@@ -1,0 +1,7 @@
+.login {
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  background: url('../assets/background.jpg') no-repeat;
+  height: 100%;
+  overflow: hidden;
+}

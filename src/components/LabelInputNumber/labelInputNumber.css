@@ -1,0 +1,9 @@
+.LabelInputNumber>ul{
+    list-style: none;
+}
+.city-label{
+    line-height: 40px;
+}
+li.city-row{
+    margin: 10px auto;
+}

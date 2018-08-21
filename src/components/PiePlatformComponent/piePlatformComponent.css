@@ -1,0 +1,14 @@
+div.piePlatformComponent,
+div.piePlatformComponent-Echarts {
+  height: 100%;
+}
+
+.platform-alarm-count {
+  position: absolute;
+  color: red;
+  font-size: 1em;
+  line-height: 2em;
+  top: 36%;
+  left: 40%;
+}
+
